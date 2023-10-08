@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    margin: 0;
+} */
+
+
+.header {
+    background-image: url("/src/img/h3-slider-background-img-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 740px;
+    /* position: relative; */
+}
+
+
+
+.logo img {
+    width: 45px;
+    display: inline-block;
+    margin-left: 63px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-nav a {
+    color: white;
+    display: inline-block;
+    font-size: 19px;
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 788px;
+    margin-top: -32px;
+}
+
+.search i {
+    font-size: 27px;
+    margin-top: -5px;
+}
+
+
+.x-logo i {
+    width: 120px;
+    font-size: 40px;
+    margin-top: -12px;
+}
+
+
+.header-text {
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    top: 250px;
+    left: 282px;
+}
+
+
+
+.small-line {
+    position: absolute;
+    top: 70px;
+    left: 435px;
+}
+
+
+.second-text {
+    color: #fff;
+    margin-left: 74px;
+    margin-top: 30px;
+    font-size: 18px;
+    width: 794px;
+    text-align: center;
+
+}
+
+.btn1 :hover{
+    transition: 0.5s;
+}
+
+.btn1 :hover{
+    box-shadow: -3px 5px 50px #ff0e1f;
+}
+
+.btn1 a {
+    color: #fff;
+    border-style: solid;
+    border-color: red;
+    background-color: red;
+    font-size: 17px;
+    padding: 17px;
+    margin-left: 387px;
+    margin-top: 5px;
+}
+
+
+
+.sol-border {
+    border-top: 59.5px solid red;
+    border-left: 15px solid transparent;
+    position: absolute;
+    top: 175px;
+    right: 622px;
+}
+
+.sag-border {
+    position: absolute;
+    top: 175px;
+    left: 523px;
+    border-top: 59.5px solid red;
+    border-right: 15px solid transparent;
+}
+
+
+
+
+
+.sec1 {
+    background-image: url(/src/img/section.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 730px;
+    position: relative;
+}
+
+.sec1 h2 {
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    width: 48rem;
+    padding-top: 7rem;
+    /* position: absolute;
+    top: 123px;
+    left: 160px; */
+}
+
+.space {
+    margin-top: 12px;
+}
+
+.p-text {
+    color: #fff;
+    width: 37rem;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    /* position: absolute;
+    top: 265px;
+    left: 160px; */
+}
+
+.btn-2 {
+    display: flex;
+}
+
+.btn-2 a {
+    padding: 20px;
+}
+
+
+.watch-trailer-button button {
+    padding: 19px;
+    background-color: #ff0e1f;
+    border: 1px solid #ff0e1f;
+    transition: 0.4s;
+}
+
+
+.watch-trailer-button button a {
+    color: #fff;
+}
+
+.btn-2 .watch-trailer-button {
+    margin-left: 160px;
+    margin-top: 45px;
+}
+
+
+.watch-trailer-button :hover {
+    box-shadow: -3px 5px 50px #ff0e1f;
+}
+
+
+.download-button{
+    cursor: pointer;
+}
+
+.download-button button {
+    border: 1px solid #ff0e1f;
+    background-color: transparent;
+    transition: 0.4s;
+}
+
+.download-button h4 {
+    margin-left: 32px;
+}
+
+
+.download-button :hover {
+    background-color: #ff0e1f;
+    color: #fff;
+    box-shadow: -3px 5px 50px #ff0e1f;
+    cursor: pointer;
+}
+
+.download-button button {
+    color: #ff0e1f;
+
+}
+
+.download-button button {
+    padding: 19px;
+    padding-right: 55px;
+}
+
+
+
+.btn-2 .download-button {
+    margin-top: 45px;
+    padding-left: 30px;
+}
+
+
+.sec2 {
+    width: 100%;
+    height: 740px;
+    background-image: url(/src/img/h3-parallax-img-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.sec2-text h2 {
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.sec2-text {
+    display: flex;
+    justify-content: end;
+    padding-top: 135px;
+    margin-right: 245px;
+}
+
+
+.card {
+    width: 40%;
+    height: 50%;
+    background-image: url(/src/img/h3-streambox-img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 45rem;
+    bottom: 8rem;
+    /* background-color: black; */
+}
+
+.card-nav {
+    background-color: black;
+    padding: 18px;
+    max-height: 54px;
+    position: relative;
+}
+
+
+.card-tw{
+    background-color: #ff0e1f;
+    padding: 17.5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.card-yt{
+    padding: 17.5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: absolute;
+    left: 132px;
+    top: 1px;
+}
+
+.card-yt :hover{
+    background-color: #ff0e1f;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.card-mxr{
+    padding: 17.5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 226px;
+    margin-top: -17px;
+    padding-top: -3px;
+
+}
+
+.card-mxr :hover{
+    background-color: #ff0e1f;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: absolute;
+    top: 1px;
+    right: 208px;
+}
+
+.card-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 34px;
+    padding-right: 175px;
+}
+
+
+
+.card-nav li {
+    list-style: none;
+}
+
+.card-nav a {
+    color: #fff;
+}
+
+.card-play{
+    display: inline-block;
+    margin-left: 270px;
+    margin-top: 109px;
+}
+
+.in-card{
+    width: 60%;
+    height: 37.6%;
+    background-color: rgba(15,15,15,.8);
+    position: relative;
+
+}
+
+.in-card a{
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+}
+
+.in-card-twitch{
+    background-color: #fff;
+    position: absolute;
+    top: 52px;
+    left: 30px;
+    padding: 3px 12px 4px 12px;
+}
+
+.in-card-oykkdn{
+    color: #fff;
+    background-color: #ff0e1f;
+    position: absolute;
+    top: 52px;
+    left: 99px;
+    padding: 3px 12px 4px 12px;
+}
+
+
+.sec3{
+    width: 100%;
+    height: 740px;
+    background-image: url(/src/img/h3-parallax-img-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sec3-text{
+    color: #fff;
+    margin-left: 402px;
+    position: absolute;
+    top: 230px;
+}
+
+.sec3-text h1{
+    font-size: 61px;
+    width: 715px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.small-line2{
+    margin-left: 285px;
+
+}
+
+.sec3-text2{
+    width: 814px;
+    text-align: center;
+    margin-top: 30px;
+    position: absolute;
+    right: -47px;
+}
+
+
+.sec4{
+    width: 100%;
+    height: 740px;
+    background-color: rgb(43, 40, 40);
+    position: relative;
+}
+
+.sec4-form{
+    position: absolute;
+    left: 315px;
+    top: 317px;
+}
+
+
+.sec4-text{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 81px;
+}
+
+.mail-login{
+    margin-top: 27px;
+}
+
+.mail-login input{
+    padding: 13px;
+    padding-right: 692px;
+    background-color: rgb(43, 40, 40);
+    border-right: 1px solid rgb(43, 40, 40);
+    border-bottom: 1px solid #ff0e1f;
+    
+}
+
+.inp-btn{
+    position: absolute;
+    bottom: 0;
+    right: -48px;
+    border: 1px solid transparent;
+}
+
+.inp-btn input{
+    padding: 13px;
+    padding-left: 21px;
+    padding-right: 28px;
+    color: #fff;
+    background-color: #ff0e1f;
+}
+
+.sec5{
+    width: 100%;
+    height: 730px;
+    background-image: url(/src/img/h3-parallax-img-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.sec5-text{
+    color: #fff;
+    font-size: 35px;
+    position: absolute;
+    top: 137px;
+    left: 180px;
+}
+
+.sec5-box{
+    width: 35%;
+    height: 40%;
+    background-color: rgba(15,15,15,.8);
+    position: absolute;
+    left: 180px;
+    top: 210px;
+}
+
+
+.sec5-navs ul{
+    display: flex;
+}
+
+.specs{
+    background-color: #ff0e1f;
+}
+
+.sec5-navs li{
+    list-style: none;
+    padding: 18px;
+    padding-left: 34px;
+    padding-right: 51px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.sec5-navs a{
+    color: #fff;
+    padding-left: 5px;
+}
+
+
+.sec5-navs ul :hover{
+    background-color: #ff0e1f;
+    transition: 0.5s;
+}
+
+.sec5-box-text p{
+    color: #fff;
+    margin: 55px 40px 0 40px;
+}
